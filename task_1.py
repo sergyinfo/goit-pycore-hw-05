@@ -1,10 +1,12 @@
 """
 Task 1: Fibonacci numbers
 """
-def caching_fibonacci():
+def caching_fibonacci() -> callable:
     """
     Return function that calculates the n-th Fibonacci number 
     using a cache to store intermediate results.
+
+    :return: callable
     """
 
     cache = {}
